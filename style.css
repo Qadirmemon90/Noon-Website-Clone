@@ -1,0 +1,901 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .50s ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navbar section Start  */
+
+.top-nav {
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background: #FEEE00;
+}
+
+.top-bar {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 84px;
+    height: 24px;
+}
+
+.locate {
+    cursor: pointer;
+    display: flex;
+    width: 7%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    transition: all .50s ease
+}
+
+.locate:hover {
+    opacity: 0.6;
+}
+
+.locate img {
+    width: 31px;
+    height: 20px;
+}
+
+.locate-text {
+    margin-top: 11%;
+}
+
+.locate-text p {
+    font-size: 14px;
+}
+
+.locate-text p span {
+    font-weight: 500;
+}
+
+.search {
+
+    width: 903px;
+    height: 38px;
+}
+
+.search input {
+    width: 903px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1.5%;
+}
+
+.icons {
+    display: flex;
+    margin: 2% 13px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.icons h3 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-left: 1px solid #3a3a3a31;
+    border-right: 1px solid #3a3a3a31;
+    width: 120%;
+    height: 20px;
+    padding-top: 2%;
+    gap: 10;
+    transition: all .50s ease;
+}
+
+.login-btn h4 {
+    font-size: 15px;
+}
+
+.login-btn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.login-btn:hover,
+.icons i:hover {
+    opacity: 0.6;
+}
+
+.icons i {
+    font-size: 22px;
+}
+
+.nav-link {
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #00000028;
+}
+
+.links {
+    display: flex;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.noon-image img {
+    width: 164px;
+    height: 100%;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    list-style: none;
+    margin-left: -9%;
+    margin-top: 1%;
+    margin-right: -6%;
+    height: 100%;
+    width: 100%;
+}
+
+.links ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.links ul li:hover {
+    border-bottom: 2px solid #000;
+}
+
+/* Navbar section End  */
+
+.main {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Hero Section Start */
+
+.hero-section {
+    border-radius: 15px;
+    width: 96.5%;
+    height: auto;
+}
+
+.hero-top img {
+    width: 100%;
+    height: auto;
+}
+
+.carosal-image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3.5%;
+    overflow: hidden;
+}
+
+.carosal {
+    display: flex;
+    overflow: hidden;
+}
+
+#carousel {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+}
+
+.carosal-image .image {
+    cursor: pointer;
+    width: 434px;
+    height: 203px;
+    display: flex;
+
+}
+
+.picture-links {
+    width: 100%;
+    height: 207px;
+    background: #FFF0BE;
+    margin-top: -3.5%;
+    position: relative;
+}
+
+.linkss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 186px;
+    gap: 4px;
+}
+
+.linkss a {
+    margin-top: 2.5%;
+}
+
+.linkss a img {
+    width: 103px;
+    height: 151px;
+}
+
+.linkss #left {
+    position: absolute;
+    left: 0.4%;
+    background: #ffffff8f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border: 0.1px solid #0000005b;
+}
+
+.linkss #right {
+    position: absolute;
+    right: 0.4%;
+    background: #ffffff8f;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border: 0.1px solid #0000005b;
+}
+
+.progres {
+    width: 38px;
+    height: 4px;
+    background: #72727236;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.progres::after {
+    width: 10px;
+    height: 4px;
+    content: '';
+    background: #000000a8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+}
+
+
+/* Hero Section End */
+
+
+/* Product Deal Section Start  */
+.product-deal {
+    display: grid;
+    grid-template-columns: 467px 467px 467px;
+    grid-template-rows: auto auto auto;
+    margin-top: 2%;
+    gap: 20px;
+
+}
+
+.reason-shop {
+    width: 475px;
+    height: 416px;
+}
+
+.reason-shop .offer {
+    display: grid;
+    grid-template-columns: 215px 215px;
+    grid-template-rows: 211px 211px;
+    gap: 10px;
+    margin-top: 2%;
+}
+
+.reason-shop .title {
+    width: 100%;
+    height: 34px;
+    align-items: center;
+}
+
+.title h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.reason-shop .offers a img {
+    width: 215px;
+    height: 211px;
+}
+
+.mega-deal {
+    width: 416px;
+    height: 416px;
+}
+
+.mega-deal .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mega-deal .timer {
+    width: 120px;
+    height: 32px;
+    background: #4a4a4a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+    font-size: 16px;
+    gap: 5px;
+}
+
+.mega-deal .timer span {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.mega-deal .deal {
+    width: 103px;
+    height: 32px;
+    background: #4a4a4a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.mega-deal .deal h6 {
+    margin-top: 6%;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.sale-products {
+    width: 480px;
+    height: 417px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-1 {
+    width: 230px;
+    height: 201px;
+    margin: 1% 1%;
+}
+
+.product-img {
+    width: 215px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-img img {
+    width: 81px;
+    height: 110px;
+}
+
+.titles {
+    width: 100%;
+    height: 27px;
+    overflow: hidden;
+}
+
+.head-tile {
+    width: 67px;
+    height: 24px;
+    position: relative;
+}
+
+.head-tile::after {
+    content: 'Monitor deals';
+    position: absolute;
+    top: 0;
+    background: #FEEE00;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100px;
+    height: 24px;
+}
+
+.titles h6 {
+    font-size: 12px;
+}
+
+
+/* Product Deal Section End  */
+
+/* Saving Product Section Start  */
+
+.saving-product {
+    width: 100%;
+    height: 401px;
+}
+
+.productss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 1%;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 24px;
+}
+
+.productss a img {
+    width: 340px;
+    height: 316px;
+}
+
+.productss #left {
+    position: absolute;
+    left: 0.4%;
+    background: #ffffff8f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.productss #right:hover,
+.productss #left:hover {
+    background: #fff;
+    transform: scale(1.09);
+    opacity: 100;
+    width: 40px;
+    height: 40px;
+}
+
+.productss #right {
+    position: absolute;
+    right: 0.4%;
+    background: #ffffff8f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Saving Product Section End  */
+
+
+/* Giffting Section Start  */
+.gift {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.gift-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gift-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gift-title a {
+    width: 93px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    transition: all .50s ease;
+    text-decoration: none;
+    color: #000;
+    border-radius: 3px;
+}
+
+.gift-title a:hover {
+    color: #9e885f;
+    border: 1px solid #9e885f;
+}
+
+.gift-item {
+    width: 100%;
+    height: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -2%;
+    position: relative;
+}
+
+.gift-item a img {
+    width: 187px;
+    height: 325px;
+}
+
+.gift-item #left {
+    position: absolute;
+    left: 0.4%;
+    background: #ffffff8f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.gift-item #right:hover,
+.gift-item #left:hover {
+    background: #fff;
+    transform: scale(1.09);
+    opacity: 100;
+    width: 40px;
+    height: 40px;
+}
+
+.gift-item #right {
+    position: absolute;
+    right: 0.4%;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Giffting Section End  */
+
+/* Recommended Section Start  */
+.recomend {
+    width: 100%;
+    height: 574px;
+    margin: 0 auto;
+}
+
+.recomend .head {
+    width: 100%;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+    margin: 0 auto;
+}
+
+.head h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.recomend .content {
+    width: 100%;
+    height: 506px;
+}
+
+.production {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5% 0;
+    gap: 10px;
+}
+
+
+
+.reco-product {
+    width: 227px;
+    height: 468px;
+    border: 1px solid #00000031;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.images img {
+    margin-top: 10px;
+    width: 224px;
+    height: 304px;
+    overflow: hidden;
+}
+
+.images img:hover {
+    transform: scale(1.05);
+}
+
+.top-bars {
+    position: absolute;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 217px;
+    height: 32px;
+    padding: 5px;
+}
+
+.best-seller {
+    width: 87px;
+    height: 22px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+.best-seller p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-bars i {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #00000023;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-right: -3%;
+}
+
+.bottom-bar {
+    width: 217px;
+    height: 52px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: absolute;
+    top: 60%;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 22px;
+    font-size: 14px;
+    gap: 5px;
+    padding-top: 6%;
+}
+
+.contents .count {
+    color: #0000006c;
+}
+
+#cart-icon {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #00000023;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #fff;
+    margin-right: -6%;
+    font-size: 18px;
+}
+
+.reco-content {
+    width: 218px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.reco-title {
+    width: 213px;
+    height: 70px;
+    font-size: 14px;
+    margin-top: 1.5%;
+    padding: 2%;
+}
+
+.price {
+    width: 213px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+.price p {
+    padding: 0 0 0 1%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price p .sale-prices {
+    font-size: 12px;
+    text-decoration: line-through 2px red;
+    font-weight: 400;
+}
+
+.price p .percent {
+    font-size: 14px;
+    color: #38AE04;
+    font-weight: 500;
+}
+
+.offers-sign {
+    width: 213px;
+    height: 13px;
+    font-size: 10px;
+    margin: 0 auto;
+    padding: 0 0 0 1%;
+}
+
+.express {
+    width: 210px;
+    height: 18px;
+    margin: 5px auto;
+}
+
+.express img {
+    width: 53px;
+    height: 17px;
+}
+
+/* Recommended Section End  */
+
+/* Summer Essentials Section Start  */
+
+.summmer {
+    width: 100%;
+    height: 417px;
+    background: #E2724E;
+    margin: 0 0 2% 0;
+    position: relative;
+}
+
+.summer-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    height: 43px;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+.summer-title h5 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.summer-title .btn {
+    color: #000;
+    border: none;
+    border-radius: 3px !important;
+}
+
+.summer-title .btn:hover {
+    color: #000000;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 3px !important;
+}
+
+.summer-product {
+    width: 97%;
+    height: 330px;
+    margin: 0 auto;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.productss img {
+    width: 187px;
+    height: 100%;
+}
+
+.summmer #left {
+    position: absolute;
+    top: 50%;
+    left: 0.4%;
+    background: #ffffff8f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.summmer #right:hover,
+.summmer #left:hover {
+    background: #fff;
+    transform: scale(1.09);
+    opacity: 100;
+    width: 40px;
+    height: 40px;
+}
+
+.summmer #right {
+    position: absolute;
+    top: 50%;
+    right: 0.4%;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Summer Essentials Section End  */
+
